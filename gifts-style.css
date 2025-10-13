@@ -1,0 +1,119 @@
+
+            body {
+                font-family: 'DM Sans', Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #fff;
+            }
+
+            .navigation a{
+                background: lightskyblue;
+                border: 1px solid white;
+                border-radius: 20px;
+                color: white;
+                display: inline-block;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+            .navigation a:hover {
+                background: white;
+                border: 1px solid lightskyblue;
+                border-radius: 20px;
+                color: lightskyblue;
+                display: inline-block;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+            /* centers the h1 */
+            h1 {
+                text-align: center;
+            }
+                    
+                /* this adds the lines(borders) to the table */
+                        table, th, td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                  
+                }
+
+                        /* this makes the back arrow not hitting the side */
+                        
+                        #back-arrow {
+                            margin-left: 10px;
+                        }
+
+
+                        h1 {
+                            text-align: center; align-items: center;
+                        }
+                            /* this centers the table */
+
+                        table {
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                            /* this centers the text in the rank columns */
+
+                        .ranks {
+                            text-align: center;
+                        }
+
+                            /* this centers the text in the products columns */
+                        .products {
+                            text-align: center;
+                        }
+                            /* this centers the text in the links columns */
+
+                        .links {
+                            text-align: center;
+                        }
+                            /* this adds the padding(space from the text and border(outline/lines) to the table */
+
+                        table, th, td {
+                            border: 1.5px solid black;
+                            border-collapse: collapse;
+                            padding: 15px;
+                        }
+                            /* this adds the background color and text color to the table headers */
+                        .table-headers {
+                            background: #b3dff6;
+                            color: #fff;
+                            font-family: DM Sans, sans-serif;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                            
+                    
+                            /* this adds the font to the h1 */ 
+                    .wishlist-word {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+}
+                           /* this makes the varient for the apple magsafe
+                           charger centered */
+                           #app-mag-charge {
+                            text-align: center;
+                           }
+
+                           /* this makes the price for the apple magsafe
+                           charger red and crossed out */
+                           #app-mag-charge-price {
+                            color: red;
+                            text-decoration: line-through;
+                           }
+
+                           /* this makes it so when you hover over a link, it changes color */
+                            .links a:hover {
+                                text-decoration: none;
+                                background-color:blue;
+                                color:white;
+                            }
+
+                        
+
+                            
