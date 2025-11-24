@@ -4,6 +4,11 @@
                 margin: 0;
                 padding: 0;
                 background: #fff;
+                
+            }
+
+            .navigation {
+                text-align: center;
             }
 
             .navigation a{
@@ -24,12 +29,15 @@
                 display: inline-block;
                 padding: 10px;
                 text-decoration: none;
+                box-shadow: lightskyblue;
             }
 
             /* centers the h1 */
             h1 {
                 text-align: center;
             }
+
+            
                     
                 /* this adds the lines(borders) to the table */
                         table, th, td {
