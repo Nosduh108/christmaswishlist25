@@ -124,6 +124,24 @@
                                 color:white;
                             }
 
+                            /* this centers the varient column text */
+
+                            tr .varient {
+                                text-align: center;
+                            }
+
+                            /* this makes the table scrollable horizontally if it is too big */
+
+                            .table-div {
+                                overflow-x: auto;
+                            }
+
+                            /* this makes the hr 80% of the vw */
+
+                            hr {
+                                width: 80vw;
+                            }
+
                         
 
                             
