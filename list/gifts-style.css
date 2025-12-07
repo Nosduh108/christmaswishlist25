@@ -171,6 +171,15 @@
                                 color: gray;
                             }
 
+                            /* this styles the info about scrolling */
+
+                            .info-abt-scrl {
+                                text-align: center;
+                                font-size: 1em;
+                                margin-bottom: 10px;
+
+                            }
+
                         
 
                             
