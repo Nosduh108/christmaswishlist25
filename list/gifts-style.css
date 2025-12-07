@@ -19,6 +19,8 @@
                 display: inline-block;
                 padding: 10px;
                 text-decoration: none;
+                text-align: left;
+                transition: 0.5s;
             }
 
             .navigation a:hover {
@@ -29,7 +31,7 @@
                 display: inline-block;
                 padding: 10px;
                 text-decoration: none;
-                box-shadow: lightskyblue;
+                transition: 0.5s;
             }
 
             /* centers the h1 */
@@ -44,6 +46,12 @@
                   border: 1px solid black;
                   border-collapse: collapse;
                   
+                }
+
+                /* this adds margin to the table */
+                table {
+                    margin-left: 20px;
+                    margin-right: 20px;
                 }
 
                         /* this makes the back arrow not hitting the side */
@@ -130,6 +138,12 @@
                                 text-align: center;
                             }
 
+                            /* this centers the prices column text */
+
+                            tr .prices {
+                                text-align: center;
+                            }
+
                             /* this makes the table scrollable horizontally if it is too big */
 
                             .table-div {
@@ -140,6 +154,21 @@
 
                             hr {
                                 width: 80vw;
+                            }
+
+                            /* this styles the back button icon */
+
+                            #back-button {
+                                width: 2em;
+                                height: 2em;
+                                color: black;
+                            }
+
+                            /* this styles the side notes */
+                            
+                            .side-notes {
+                                margin-left: 10px;
+                                color: gray;
                             }
 
                         
