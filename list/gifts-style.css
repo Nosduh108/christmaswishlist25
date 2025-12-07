@@ -76,6 +76,8 @@
 
                         .links {
                             text-align: center;
+                            text-decoration: underline;
+                            
                         }
                             /* this adds the padding(space from the text and border(outline/lines) to the table */
 
@@ -110,7 +112,7 @@
 
                            /* this makes the price for the apple magsafe
                            charger red and crossed out */
-                           #app-mag-charge-price {
+                           .sales {
                             color: red;
                             text-decoration: line-through;
                            }
